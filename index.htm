@@ -1,1 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Electrical One Notes</title>
 
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#f4f4f4;
+      padding:40px;
+      color:#222;
+    }
+
+    .container{
+      max-width:1000px;
+      margin:auto;
+      background:white;
+      padding:30px;
+      border-radius:12px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h1{
+      text-align:center;
+      margin-bottom:30px;
+      color:#228B22;
+    }
+
+    .notes{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:25px;
+    }
+
+    .card{
+      background:#fafafa;
+      padding:20px;
+      border-left:5px solid #228B22;
+      border-radius:10px;
+    }
+
+    .card h2{
+      color:#228B22;
+      margin-bottom:10px;
+      font-size:20px;
+    }
+
+    .card ul{
+      padding-left:20px;
+    }
+
+    .card li{
+      margin-bottom:8px;
+      line-height:1.5;
+    }
+
+    @media(max-width:768px){
+      .notes{
+        grid-template-columns:1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+ 
+  <div class="container">
+
+    <h1>Electrical One Notes</h1>
+
+    <div class="notes">
+    
+      <div class="card">
+        <h2>Magnetic field</h2>
+        <ul>
+          <li>It is an invisible field that exerts magnetic force on substance which are sensitive to magnetism</li>
+        </ul>
+      </div>
+    
+      <div class="card">
+        <h2>Magnetic flux</h2>
+        <ul>
+          <li>A measurement of the total magnetic field ehich passes through a given area</li>
+        </ul>
+      </div>
+    
+      <div class="card">
+        <h2>What is Electricity</h2>
+        <ul>
+          <li>Electriciy does not exist by itself</li>
+          <li>It has to be generated from a source of energy</li>
+        </ul>
+      </div>
+    
+      <div class="card">
+        <h2>Voltage</h2>
+        <ul>
+          <li>The measure of the electric potential difference between two points in a circuit</li>
+          <li>Measured with a voltmeter</li>
+        </ul>
+      </div>
+    
+      <div class="card">
+        <h2>Current</h2>
+        <ul>
+          <li>The amount of electricity flowing in a circuit</li>
+        </ul>
+      </div>
+    
+      <div class="card">
+        <h2>Resistance</h2>
+        <ul>
+          <li>Resistance to the flow of electricity</li>
+        </ul>
+      </div>
+    
+      <div class="card">
+        <h2>Four things resistance of a conducter depends on</h2>
+        <ul>
+          <li>Type of material</li>
+          <li>Cross secruonal area of the conductor</li>
+          <li>The length of conductor</li>
+          <li>Temperature</li>
+        </ul>
+      </div>
+    
+      <div class="card">
+        <h2>Direct Current</h2>
+        <ul>
+          <li>The type of electricity produced by a battery</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Alternating Current</h2>
+        <ul>
+          <li>Electron flow along a conductor</li>
+          <li>Flows first in one direction, then in the opposite direction</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Circuit</h2>
+        <ul>
+          <li>The path of current in a cell</li>
+          <li>A path for electrical current to flow from the source and back</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Series Circuit</h2>
+        <ul>
+          <li>If one lamp fails, they all go out</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Transformer</h2>
+        <ul>
+          <li>Capable of increasing or decreasing voltage and current levels</li>
+          <li>Does not modify frequency (Hz)</li>
+          <li>Does not change the amount of electrical power transferred</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Common Conductors & Their Conductivity</h2>
+        <ul>
+          <li>Silver — 100%</li>
+          <li>Copper — 98%</li>
+          <li>Gold — 78%</li>
+          <li>Aluminium — 61%</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Good Conductor / Electron Flow</h2>
+        <ul>
+          <li>Surplus free electrons from the battery enter the wire</li>
+          <li>These electrons push other free electrons in the outer orbits</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>What is Electricity?</h2>
+        <ul>
+          <li>The movement of electrons along a wire forms electric current</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Insulators</h2>
+        <ul>
+          <li>Materials that cannot pass electrical current easily</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Uses of Insulators</h2>
+        <ul>
+          <li>Used to cover electric wires</li>
+          <li>Used to make casings of circuit breakers</li>
+          <li>Used in earth leakage devices and isolators</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Types of Insulators</h2>
+        <ul>
+          <li>Glass</li>
+          <li>Rubber</li>
+          <li>Ceramic</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Factors Affecting Resistance of Cables</h2>
+        <ul>
+          <li>Type of material</li>
+          <li>Size of conductor</li>
+          <li>Length</li>
+          <li>Temperature</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Overloading</h2>
+        <ul>
+          <li>When too much equipment runs off one circuit</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Fuses</h2>
+        <ul>
+          <li>A type of circuit protection device</li>
+          <li>One-time overcurrent protection</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Minimum Current That Can Be Fatal</h2>
+        <ul>
+          <li>100 milliampere</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Humidistat Controls</h2>
+        <ul>
+          <li>Controls humidity</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Function of a Control System</h2>
+        <ul>
+          <li>Ensures correct plant operation</li>
+          <li>Provides necessary safety protection</li>
+          <li>Ensures optimum efficiency</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Thermostat Code Number</h2>
+        <ul>
+          <li>Used to specify a thermostat with specific parameters</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Thermostat</h2>
+        <ul>
+          <li>A device that regulates temperature by controlling heating or cooling systems</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Applications of Electrical Control</h2>
+        <ul>
+          <li>Relays</li>
+          <li>Contactors</li>
+          <li>Self-contained systems</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Self-contained System</h2>
+        <ul>
+          <li>A system combining the controller and controlled device in one unit</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Line Voltage</h2>
+        <ul>
+          <li>Normal electrical supply voltage</li>
+          <li>Voltage applied on the line</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Low Voltage</h2>
+        <ul>
+          <li>Electrical wiring or devices using 30V or less</li>
+          <li>Devices usually function on 24V AC</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Relay</h2>
+        <ul>
+          <li>A device consisting of a solenoid coil operating load-carrying contacts</li>
+        </ul>
+      </div>
+      
+      <div class="card">
+        <h2>Relay Contacts</h2>
+        <ul>
+          <li>Switches contacts when the coil is energized</li>
+          <li>Can be SPST or DPDT</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Contacts</h2>
+        <ul>
+          <li>Contacts complete a circuit when the relay is energized</li>
+          <li>Examples: SPST, DPST, DPDT</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Resistance Temperature Device (RTD)</h2>
+        <ul>
+          <li>Changes resistance with varying temperature</li>
+          <li>Has a positive temperature coefficient</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Thermistor</h2>
+        <ul>
+          <li>Uses variation in resistance with changing temperature</li>
+          <li>Made from semiconductor material</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Types of Thermistors</h2>
+        <ul>
+          <li>NTC — Resistance decreases as temperature increases</li>
+          <li>PTC — Resistance increases as temperature increases</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Types of Control Devices</h2>
+        <ul>
+          <li>Operational control</li>
+          <li>Safety control</li>
+          <li>Efficiency control</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Operational Control</h2>
+        <ul>
+          <li>Temperature controller uses a sensor mounted away from the control</li>
+          <li>Thermostat sensor is normally an integral part of the device</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Characteristics of an Electromechanical Thermostat and an Electronic Controller</h2>
+        <ul>
+          <li>Both are single-stage ON/OFF devices</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Safety Controls</h2>
+        <ul>
+          <li>Used in a control circuit as an interlock</li>
+          <li>Interrupts a control signal under specific conditions</li>
+          <li>Prevents equipment damage or loss of life</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Bi-directional Electric Actuator</h2>
+        <ul>
+          <li>Two-position and floating type</li>
+          <li>Operates in both directions</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Function of a Relay</h2>
+        <ul>
+          <li>Switches electrical controls using a solenoid coil</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Single Phase Motor</h2>
+        <ul>
+          <li>Has two windings</li>
+          <li>Start winding</li>
+          <li>Run winding</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Single-Shaded Pole Motor</h2>
+        <ul>
+          <li>Has one winding</li>
+          <li>Contains a magnetically shaded pole</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Electrical Load</h2>
+        <ul>
+          <li>An electrical component that changed electrical energy into useful energy such as work, light and heat</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Smoke detector</h2>
+        <ul>
+          <li>Detects smoke</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+            </html>
